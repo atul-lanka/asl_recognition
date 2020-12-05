@@ -1,7 +1,7 @@
 # ASL Recognition
 Final Project - Use Transfer Learning to recognize the ASL alphabet and numbers
 
-VGG16 Model file available in model branch
+**VGG16 Model file available in model branch**
 
 ## Overview
 This project outlines using Transfer Learning and Data Augmentation to create a deep learning model for an ASL dataset. 
@@ -18,11 +18,11 @@ To train the model for more realistic scenarios since this project would involve
 VGG-16 was the clear choice of network architecture moving forward since it provides the highest validation accuracy and lowest validation loss as well as training time.
 
 
-Results available in the Colab Notebook
+**Results available in the Colab Notebook**
 
 
 ## Model Application
 OpenCV is used to capture frames from a video feed. The application provides an area or green rectangle where the signs are to be detected and recognized. The signs are then captured in frames, which are then processed and fed into the model. Predictions are outputted based on 3 tiers of certainty:
-•	If the model predicts a sign with a confidence greater than 75%, the prediction is presented as ‘[Sign] – [Confidence %’]. 
-•	Predictions that fall in between 75% and 25% are presented with a ‘Maybe … [Sign] - [Confidence %]’ 
-•	Predictions below 25% is presented as ‘Nothing’.  
+-	If the model predicts a sign with a confidence greater than 75%, the prediction is presented as ‘[Sign] – [Confidence %’]. 
+-	Predictions that fall in between 75% and 25% are presented with a ‘Maybe … [Sign] - [Confidence %]’ 
+-	Predictions below 25% is presented as ‘Nothing’.  
