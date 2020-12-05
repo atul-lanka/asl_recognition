@@ -26,3 +26,5 @@ OpenCV is used to capture frames from a video feed. The application provides an 
 -	If the model predicts a sign with a confidence greater than 75%, the prediction is presented as ‘[Sign] – [Confidence %’]. 
 -	Predictions that fall in between 75% and 25% are presented with a ‘Maybe … [Sign] - [Confidence %]’ 
 -	Predictions below 25% is presented as ‘Nothing’.  
+
+**Video Recording of Predictions available in the repo**
